@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/mateu/IdeaProjects/play-samples-play-java-jpa-example/conf/routes
-// @DATE:Tue May 19 17:13:49 CEST 2020
+// @DATE:Thu May 21 14:25:41 CEST 2020
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -11,7 +11,7 @@ import _root_.play.libs.F
 // @LINE:6
 package controllers.javascript {
 
-  // @LINE:13
+  // @LINE:17
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -19,7 +19,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:17
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
@@ -39,7 +39,21 @@ package controllers.javascript {
     }
 
   
-    // @LINE:9
+    // @LINE:6
+    def corsOk: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.GeneralController.corsOk",
+      """
+        function() {
+        
+          if (true) {
+            return _wA({method:"OPTIONS", url:"""" + _prefix + """"})
+          }
+        
+        }
+      """
+    )
+  
+    // @LINE:13
     def deleteQuote: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.GeneralController.deleteQuote",
       """
@@ -49,7 +63,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:10
+    // @LINE:14
     def getAllQuotes: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.GeneralController.getAllQuotes",
       """
@@ -59,7 +73,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:7
+    // @LINE:11
     def getQuote: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.GeneralController.getQuote",
       """
@@ -69,7 +83,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
+    // @LINE:12
     def addQuote: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.GeneralController.addQuote",
       """
@@ -79,7 +93,17 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:6
+    // @LINE:9
+    def corsOk2: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.GeneralController.corsOk2",
+      """
+        function(id0) {
+          return _wA({method:"OPTIONS", url:"""" + _prefix + { _defaultPrefix } + """" + "quotes/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[Long]].javascriptUnbind + """)("id", id0))})
+        }
+      """
+    )
+  
+    // @LINE:10
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.GeneralController.login",
       """

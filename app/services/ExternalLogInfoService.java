@@ -7,7 +7,7 @@ import javax.inject.Inject;
 
 
 public class ExternalLogInfoService {
-    private final static String API_LOG_URL = "https://enk1mpftizfl.x.pipedream.net/";
+    private final static String API_LOG_URL = "https://pipedream.net/";
     private final WSClient wsClient;
     private final ModelMapper modelMapper;
 
@@ -21,9 +21,5 @@ public class ExternalLogInfoService {
         wsClient.url(API_LOG_URL)
                 .post(modelMapper.jsonToPostForLog(quote));
     }
-
-
-    //todo TimeStamp  +   object do zewnetrznego serwisu
-
 
 }

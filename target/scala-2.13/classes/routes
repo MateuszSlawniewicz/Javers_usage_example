@@ -3,12 +3,16 @@
 # ~~~~
 
 # Main Page
-POST          /login               controllers.GeneralController.login(req: Request)
-GET           /quotes/:id          controllers.GeneralController.getQuote(re: Request, id: Long)
-POST          /quotes              controllers.GeneralController.addQuote(req: Request)
-DELETE        /quotes/:id          controllers.GeneralController.deleteQuote(req: Request, id: Long)
-GET           /quotes              controllers.GeneralController.getAllQuotes(req: Request)
+OPTIONS        /                    controllers.GeneralController.corsOk(req: Request)
+OPTIONS        /login               controllers.GeneralController.corsOk(req: Request)
+OPTIONS        /quotes              controllers.GeneralController.corsOk(req: Request)
+OPTIONS        /quotes/:id          controllers.GeneralController.corsOk2(req: Request, id: Long)
+POST           /login               controllers.GeneralController.login(req: Request)
+GET            /quotes/:id          controllers.GeneralController.getQuote(re: Request, id: Long)
+POST           /quotes              controllers.GeneralController.addQuote(req: Request)
+DELETE         /quotes/:id          controllers.GeneralController.deleteQuote(req: Request, id: Long)
+GET            /quotes              controllers.GeneralController.getAllQuotes(req: Request)
 
 # Map static resources from the /public folder to the /assets URL path
-GET           /assets/*file        controllers.Assets.at(path="/public", file)
+GET            /assets/*file        controllers.Assets.at(path="/public", file)
 

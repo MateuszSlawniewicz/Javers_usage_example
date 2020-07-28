@@ -68,7 +68,7 @@ public class JPAQuoteRepository implements QuoteRepository {
     }
 
     private Integer delete(EntityManager entityManager, Long id) {
-        Query query = entityManager.createQuery(DELETE_QUERY, Quote.class);
+        Query query = entityManager.createQuery(DELETE_QUERY);
         query.setParameter("id", id);
         return query.executeUpdate();
     }

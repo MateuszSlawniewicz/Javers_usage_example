@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/mateu/IdeaProjects/play-samples-play-java-jpa-example/conf/routes
-// @DATE:Tue May 19 17:13:49 CEST 2020
+// @DATE:Thu May 21 14:25:41 CEST 2020
 
 package controllers;
 

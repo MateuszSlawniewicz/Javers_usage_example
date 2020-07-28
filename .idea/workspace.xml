@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4054ab23-dad1-43b0-ae4e-f49071c33b93" name="Default Changelist" comment="" />
+    <list default="true" id="4054ab23-dad1-43b0-ae4e-f49071c33b93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/GeneralController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/GeneralController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/QuotesErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/JPAQuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/JPAQuoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ResultModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/ExternalAPIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/ExternalAPIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/ExternalLogInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/ExternalLogInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-0621c897-a58a-4d1b-a1df-975cad2370b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-15ac8387-4055-47c4-b4cb-fef6b18b9497" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-20388ef0-816b-426f-b66d-e6d1fce4c0b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-31b8485f-3550-46e8-a54f-b7fc01ffdd99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-41b7b759-7b12-4fb0-8d0a-fe2618ae7d2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-5a05f8b4-26b8-4a68-be77-0fe4440c2440" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-6492d2df-d0ff-4ec2-adeb-9f8ba598e3fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-6eaa8fcb-27ff-4ae7-ba68-a10c887d5e82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-74f418f0-b704-4503-aa85-d73b8350dd00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-76bd40d8-6d8f-49e6-a3cf-5a3eaef9b265" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-8c3041f5-e3b4-403a-a7a5-623b078f093d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-9c8cecac-deed-4025-91d5-bc55fb58c839" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-a57ab13f-0b44-4eba-8dbd-56b2d488c79e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-aa69634c-8da3-49c8-9dc0-767106174b77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-ada62ac3-e4b1-4a94-ae7a-80fd4966c359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-b0bd0440-06e9-4bdf-b680-10ac33f302a5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-bb5168ef-814e-48e0-a1e5-3549b5980858" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-c2e4b520-d0e8-443c-bd0e-e709be430823" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-c3b4934b-dea6-4bdd-95de-b218819a488f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-d4ac6184-340f-4eee-affa-269e1829b878" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/root-compile/compilation-info-f5b9b98f-7790-4639-900f-bc3d51b7ec42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/GeneralController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/GeneralController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseGeneralController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseGeneralController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseGeneralController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseGeneralController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/models/JPAQuoteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/models/JPAQuoteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/routes" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/services/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/services/ExternalAPIService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/services/ExternalAPIService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/services/ExternalLogInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/services/ExternalLogInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/RoutesPrefix.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/RoutesPrefix.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/playCommonClassloader/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/playCommonClassloader/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/_global/streams/op-cache" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/_global/streams/op-cache" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -76,75 +132,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/GeneralController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/ExternalAPIService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="69" lean-forward="true" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/QuoteRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/AuthService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/ModelMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="-667">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/ExternalLogInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="193">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,24 +156,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-sources.jar!/play/api/libs/ws/WSRequest.scala">
+        <entry file="file://$PROJECT_DIR$/conf/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+            <state relative-caret-position="414">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/QuoteRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/JPAQuoteRepository.java">
+        <entry file="file://$PROJECT_DIR$/app/models/ResultModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="338">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#36#1" expanded="true" />
-                <element signature="e#0#21#1" expanded="true" />
-                <element signature="e#0#38#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/AuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/SecurityModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="24" column="128" selection-start-line="24" selection-start-column="128" selection-end-line="24" selection-end-column="128" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,6 +240,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -213,22 +259,22 @@
         <option value="$PROJECT_DIR$/app/models/UserRepository.java" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/conf/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/modules/SecurityModule.java" />
         <option value="$PROJECT_DIR$/app/handlers/QuotesErrorHandler.java" />
         <option value="$PROJECT_DIR$/app/models/QuoteDTO.java" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/app/models/QuoteRepository.java" />
         <option value="$PROJECT_DIR$/app/models/Quote.java" />
-        <option value="$PROJECT_DIR$/app/models/ResultModel.java" />
-        <option value="$PROJECT_DIR$/app/services/AuthService.java" />
         <option value="$PROJECT_DIR$/app/services/ExternaLogInfoService.java" />
-        <option value="$PROJECT_DIR$/app/models/JPAQuoteRepository.java" />
         <option value="$PROJECT_DIR$/app/services/ModelMapper.java" />
-        <option value="$PROJECT_DIR$/app/services/ExternalLogInfoService.java" />
-        <option value="$PROJECT_DIR$/app/services/ExternalAPIService.java" />
+        <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/app/services/AuthService.java" />
         <option value="$PROJECT_DIR$/app/controllers/GeneralController.java" />
+        <option value="$PROJECT_DIR$/app/models/ResultModel.java" />
+        <option value="$PROJECT_DIR$/app/models/JPAQuoteRepository.java" />
+        <option value="$PROJECT_DIR$/app/services/ExternalAPIService.java" />
+        <option value="$PROJECT_DIR$/app/services/ExternalLogInfoService.java" />
       </list>
     </option>
   </component>
@@ -254,63 +300,25 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-500" />
+    <option name="y" value="100" />
+    <option name="width" value="2420" />
+    <option name="height" value="1105" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
@@ -322,229 +330,6 @@
               <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-2.13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-2.13" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-2.13" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play-samples-play-java-jpa-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-2.13" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play-ws_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play-ws_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: com.typesafe.play:play_2.13:2.8.1:jar" type="70bed36:NamedLibraryElementNode" />
-              <item name="play_2.13-2.8.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="sbt-plugin.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="sbt-plugin.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="sbt-plugin.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="sbt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="sbt-plugin.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="play" type="462c0819:PsiDirectoryNode" />
-              <item name="sbt" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="play-java-jpa-example" type="b2602c69:ProjectViewProjectNode" />
@@ -565,16 +350,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -657,12 +442,21 @@
       <workItem from="1589875973293" duration="22427000" />
       <workItem from="1589911731860" duration="16267000" />
       <workItem from="1589963197434" duration="850000" />
-      <workItem from="1589964157181" duration="10464000" />
+      <workItem from="1589964157181" duration="11008000" />
+      <workItem from="1589993151935" duration="2942000" />
+      <workItem from="1589998086555" duration="16914000" />
+      <workItem from="1590044563472" duration="18609000" />
+      <workItem from="1590415314097" duration="6024000" />
+      <workItem from="1590592305841" duration="1539000" />
+      <workItem from="1590596814847" duration="203000" />
+      <workItem from="1592314405725" duration="80000" />
+      <workItem from="1592512660574" duration="1148000" />
+      <workItem from="1595926116670" duration="484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106238000" />
+    <option name="totallyTimeSpent" value="154725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,10 +468,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -698,13 +492,13 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32882413" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25134408" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49932885" weight="0.32882413" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3293011" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" weight="0.3293011" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="15" sideWeight="0.49932885" visible="true" weight="0.29968783" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="15" sideWeight="0.49932885" weight="0.26881722" />
       <window_info anchor="bottom" id="Console" order="16" />
       <window_info anchor="bottom" id="Version Control" order="17" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.3293011" />
@@ -729,66 +523,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/QuoteRepository" />
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="3168" column="17" selection-start-line="3168" selection-start-column="17" selection-end-line="3168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/Query.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/mvc/Results.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="458" column="29" selection-start-line="458" selection-start-column="29" selection-end-line="458" selection-end-column="29" />
-          <folding>
-            <element signature="e#15652#15653#0" expanded="true" />
-            <element signature="e#15689#15690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/javax/inject/Inject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="177" column="2" lean-forward="true" selection-start-line="177" selection-start-column="2" selection-end-line="177" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/EntityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/api/inject/BuiltinModule.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1451">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -842,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -964,28 +691,173 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/libs/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/mvc/Results.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30613">
+          <caret line="1442" column="23" selection-start-line="1442" selection-start-column="23" selection-end-line="1442" selection-end-column="23" />
+          <folding>
+            <element signature="e#15652#15653#0" expanded="true" />
+            <element signature="e#15689#15690#0" expanded="true" />
+            <element signature="e#44536#44537#0" expanded="true" />
+            <element signature="e#44582#44583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-sources.jar!/play/api/libs/ws/WSRequest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4232">
+          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/run-support_2.12/2.8.1/run-support_2.12-2.8.1-sources.jar!/play/runsupport/Reloader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="338" column="34" selection-start-line="338" selection-start-column="34" selection-end-line="338" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/mvc/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/mvc/Http.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+          <folding>
+            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6854">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/handlers/QuotesErrorHandler.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4168">
+          <caret line="1827" column="43" selection-start-line="1827" selection-start-column="43" selection-end-line="1827" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/libs/concurrent/CustomExecutionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/ModelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-jpa_2.13/2.8.1/play-java-jpa_2.13-2.8.1-sources.jar!/play/db/jpa/JPAApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/GeneralController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/DatabaseExecutionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/JPAQuoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Quote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="322">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/QuoteDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="-582">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/QuoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ResultModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="338">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -999,75 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/SecurityModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="322">
           <caret line="24" column="128" selection-start-line="24" selection-start-column="128" selection-end-line="24" selection-end-column="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/handlers/QuotesErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/DatabaseExecutionContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar!/play/libs/Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-sources.jar!/play/api/libs/ws/WSRequest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/QuoteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/ExternalLogInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/ModelMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1076,53 +881,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="798">
+          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/JPAQuoteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#36#1" expanded="true" />
-            <element signature="e#0#21#1" expanded="true" />
-            <element signature="e#0#38#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/ExternalAPIService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="69" lean-forward="true" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+        <state relative-caret-position="-667">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/GeneralController.java">
+    <entry file="file://$PROJECT_DIR$/app/services/ExternalLogInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+        <state relative-caret-position="193">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
+    <entry file="file://$PROJECT_DIR$/conf/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1179,6 +977,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

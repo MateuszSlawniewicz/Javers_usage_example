@@ -9,17 +9,15 @@ import play.libs.ws.WSRequest;
 import play.libs.ws.WSResponse;
 
 import javax.inject.Inject;
-import java.time.Duration;
-import java.time.temporal.ChronoUnit;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 import java.util.stream.Collectors;
 
-public class ExternalAPIService {
-    private static final String API_KEY_TOKEN = " Token {117946a4af24826e9e61441144a4c76c03739d96}";
-    private static final String API_URL = "https://api.paperquotes.com/apiv1/quotes/";
+public class    ExternalAPIService {
+    private static final String API_KEY_TOKEN = " ";
+    private static final String API_URL = "https://api.paperquotes.com/";
     private final WSClient ws;
     private final ModelMapper modelMapper;
     private final JPAQuoteRepository jpaQuoteRepository;
@@ -57,7 +55,6 @@ public class ExternalAPIService {
     private WSRequest customizeRequestUrl(Quote quote) {
         return ws.url(API_URL)
                 .addHeader("Authorization", API_KEY_TOKEN)
-                .setRequestTimeout(Duration.of(1000, ChronoUnit.MILLIS))
                 .addQueryParameter("tags", quote.getKeyWord());
     }
 

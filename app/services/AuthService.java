@@ -11,6 +11,7 @@ import org.pac4j.jwt.profile.JwtGenerator;
 import org.pac4j.sql.profile.DbProfile;
 import org.pac4j.sql.profile.service.DbProfileService;
 import org.postgresql.ds.PGSimpleDataSource;
+import play.libs.Json;
 import play.mvc.Http;
 import play.mvc.Result;
 
@@ -19,20 +20,6 @@ import java.util.Optional;
 import static play.mvc.Results.ok;
 import static play.mvc.Results.unauthorized;
 
-
-//*******
-// {
-//   "mail":"testowy@user.pl",
-//   "password":"admin"
-//   }
-//   *******//
-
-//TODO raport
-//TODO front IONIC
-
-// playKamila
-//   http://paperquotes.com/pricing/
-//  https://enxg4s9nzv55o.x.pipedream.net/
 
 
 public class AuthService {
@@ -52,6 +39,7 @@ public class AuthService {
 
 
     public Result login(final Http.Request request, final WebContext webContext) {
+        System.out.println("login for data" + request.body().toString());
         Optional<User> optionalUser = request.body().parseJson(User.class);
         return optionalUser.map(user ->
         {
@@ -59,7 +47,11 @@ public class AuthService {
             try {
                 return validUserCredentials(credentials, webContext);
             } catch (Exception e) {
-                return unauthorized(e.getMessage());
+                return unauthorized(e.getMessage()) .withHeader("Access-Control-Allow-Origin", "*")
+                        .withHeader("Access-Control-Allow-Headers", "*")
+                        .withHeader("Access-Control-Allow-Credentials", "true")
+                        .withHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS,HEAD");
+
             }
         }).orElseThrow(() -> new RuntimeException("wrong type of user"));
     }
@@ -69,7 +61,11 @@ public class AuthService {
         CommonProfile commonProfile = new CommonProfile();
         commonProfile.setClientName(credentials.getUsername());
         String token = prepareTokenForUser();
-        return ok(token);
+        return ok(Json.toJson(token)) .withHeader("Access-Control-Allow-Origin", "*")
+                .withHeader("Access-Control-Allow-Headers", "*")
+                .withHeader("Access-Control-Allow-Credentials", "true")
+                .withHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS,HEAD");
+
     }
 
     private String prepareTokenForUser() {
