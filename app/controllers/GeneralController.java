@@ -1,129 +1,75 @@
 package controllers;
 
 
-import models.Quote;
-import models.QuoteRepository;
-import org.pac4j.play.PlayWebContext;
-import org.pac4j.play.store.PlaySessionStore;
+import models.Car;
+import models.CarRepository;
+import org.javers.core.Changes;
+import org.javers.repository.jql.QueryBuilder;
 import play.libs.Json;
 import play.libs.concurrent.HttpExecutionContext;
 import play.mvc.Controller;
 import play.mvc.Http;
 import play.mvc.Result;
-import services.AuthService;
-import services.ExternalAPIService;
-import services.ModelMapper;
+import services.JaversConfiguration;
+
 
 import javax.inject.Inject;
-import java.util.List;
-import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
-import java.util.stream.Collectors;
-
 public class GeneralController extends Controller {
 
 
-    private final QuoteRepository quoteRepository;
     private final HttpExecutionContext ec;
-    private final AuthService authService;
-    private final PlaySessionStore playSessionStore;
-    private final ModelMapper modelMapper;
-    private final ExternalAPIService externalAPIService;
-
+    private final CarRepository carRepository;
+    private final JaversConfiguration javersConfiguration;
 
     @Inject
-    public GeneralController(QuoteRepository quoteRepository, HttpExecutionContext ec, AuthService authService, PlaySessionStore playSessionStore, ModelMapper modelMapper, ExternalAPIService externalAPIService) {
-        this.quoteRepository = quoteRepository;
+    public GeneralController(HttpExecutionContext ec, CarRepository carRepository, JaversConfiguration javersConfiguration) {
         this.ec = ec;
-        this.authService = authService;
-        this.playSessionStore = playSessionStore;
-        this.modelMapper = modelMapper;
-        this.externalAPIService = externalAPIService;
+        this.carRepository = carRepository;
+        this.javersConfiguration = javersConfiguration;
     }
 
-    public Result corsOk(final Http.Request request) {
-        System.out.println("prepare CORS");
-        System.out.println(request.method());
-        return wrapCorseHeaders(ok());
+    public CompletionStage<Result> getCar(final Http.Request request, final Long id) {
+        return carRepository.getCar(id).thenApply(car -> {
+           return ok(Json.toJson(car));
+        });
     }
 
-
-    public Result corsOk2(final Http.Request request, Long id) {
-        System.out.println("prepare CORS");
-        System.out.println(request.method());
-        return wrapCorseHeaders(ok());
+    public CompletionStage<Result> addCar(final Http.Request request) {
+        Car car = Json.fromJson(request.body().asJson(), Car.class);
+        return carRepository.add(car).thenApply(carSaved -> {
+           return ok(Json.toJson(carSaved));
+        });
     }
 
-
-    public CompletionStage<Result> getQuote(final Http.Request request, Long id) {
-        Optional<String> optionalToken = request.getHeaders().get("token");
-        if (this.authService.jwtValidation(optionalToken)) {
-            return quoteRepository.getQuote(id)
-                    .thenApplyAsync(e -> wrapCorseHeaders(ok(this.modelMapper.QuoteToJson(e))));
-        }
-        return CompletableFuture.completedFuture(wrapCorseHeaders(forbidden()));
+    public CompletionStage<Result> updateCar(final Http.Request request,  final Long id) {
+        Car car = Json.fromJson(request.body().asJson(), Car.class);
+        return carRepository.updateCar(car).thenApply(carSaved -> {
+            return ok(Json.toJson(carSaved));
+        });
     }
 
-
-    public CompletionStage<Result> addQuote(final Http.Request request) {
-        Optional<String> optionalToken = request.getHeaders().get("token");
-        if (this.authService.jwtValidation(optionalToken)) {
-            Quote quote = this.modelMapper.transformToQuote(request.body().asJson());
-            this.externalAPIService.populateDBWithExtraQuotes(quote);
-            return quoteRepository
-                    .add(quote)
-                    .thenApplyAsync(e -> wrapCorseHeaders(ok(this.modelMapper.QuoteToJson(e))));
-        }
-        return CompletableFuture.completedFuture(wrapCorseHeaders(forbidden()));
-
+    public CompletionStage<Result> deleteCar(final Http.Request request, final Long id) {
+        return carRepository.delete(id)
+                .thenApply(it -> {
+                    if(it>0) {
+                        return ok("delete");
+                    }
+                    return badRequest("cant delete");
+        });
     }
 
-    public CompletionStage<Result> deleteQuote(final Http.Request request, final Long id) {
-        Optional<String> optionalToken = request.getHeaders().get("token");
-        if (this.authService.jwtValidation(optionalToken)) {
-            return quoteRepository
-                    .delete(id)
-                    .thenApplyAsync(this::deleteHandling);
-        }
-        return CompletableFuture.completedFuture(wrapCorseHeaders(forbidden()));
-
+    public CompletionStage<Result> getAllCars(final Http.Request request) {
+        return carRepository.list().thenApply(it->{
+            return ok(Json.toJson(it));
+        });
     }
 
-    public CompletionStage<Result> getAllQuotes(final Http.Request request) {
-        Optional<String> optionalToken = request.getHeaders().get("token");
-        if (this.authService.jwtValidation(optionalToken)) {
-            return quoteRepository.list()
-                    .thenApplyAsync(e -> {
-                        List<Quote> listOfQuotes = e.collect(Collectors.toList());
-                        return wrapCorseHeaders(ok(Json.toJson(listOfQuotes)));
-                    });
-        }
-        return CompletableFuture.completedFuture(wrapCorseHeaders(forbidden()));
+    public CompletionStage<Result> getCarChanges(final Http.Request request) {
+        Changes changes = javersConfiguration.getJavers().findChanges(QueryBuilder.byClass(Car.class).build());
+        System.out.println(changes.size());
+        return CompletableFuture.completedFuture(ok(Json.toJson(changes)));
     }
-
-
-    public Result login(final Http.Request request) {
-        final PlayWebContext context = new PlayWebContext(request, playSessionStore);
-        return this.authService.login(request, context);
-    }
-
-
-    private Result deleteHandling(Integer e) {
-        if (e.equals(1)) {
-            return ok();
-        } else {
-            return notFound();
-        }
-    }
-
-    private Result wrapCorseHeaders(Result result) {
-        return result.withHeader("Access-Control-Allow-Origin", "*")
-                .withHeader("Access-Control-Allow-Headers", "*")
-                .withHeader("Access-Control-Allow-Credentials", "true")
-                .withHeader("Access-Control-Allow-Methods", "*");
-
-    }
-
 
 }
